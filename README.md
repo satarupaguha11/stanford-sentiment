@@ -22,13 +22,14 @@ How to run this code
 I navigate to src/edu/stanford/nlp/sentiment
 
 Then I run:
-java -cp stanford-corenlp-3.4.jar:stanford-corenlp-3.4-models.jar:xom.jar:joda-time.jar:jollyday.jar:ejml-0.23.jar -mx5g edu.stanford.nlp.sentiment.SentimentPipeline -file input.txt
+
+    java -cp stanford-corenlp-3.4.jar:stanford-corenlp-3.4-models.jar:xom.jar:joda-time.jar:jollyday.jar:ejml-0.23.jar -mx5g edu.stanford.nlp.sentiment.SentimentPipeline -file input.txt
 
 (If I have the input in a file)
 
 or
 
-java -cp stanford-corenlp-3.4.jar:stanford-corenlp-3.4-models.jar:xom.jar:joda-time.jar:jollyday.jar:ejml-0.23.jar -mx5g edu.stanford.nlp.sentiment.SentimentPipeline -stdin
+    java -cp stanford-corenlp-3.4.jar:stanford-corenlp-3.4-models.jar:xom.jar:joda-time.jar:jollyday.jar:ejml-0.23.ja r -mx5g edu.stanford.nlp.sentiment.SentimentPipeline -stdin
 
 (If I want to give input line by line)
 
