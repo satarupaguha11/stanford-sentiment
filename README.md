@@ -5,26 +5,16 @@ This code is released by Stanford for Sentiment Analysis.
 
 The jar files required to run this code are as follows:
 
-    
-ejml-0.23.jar
+stanford-corenlp-3.4.jar
 
-javax.json.jar
+stanford-corenlp-3.4-models.jar
 
-javax.json-api-1.0-sources.jar
-
-joda-time.jar
-
-joda-time-2.1-sources.jar
+xom.jar:joda-time.jar
 
 jollyday.jar
 
-jollyday-0.4.7-sources.jar
+ejml-0.23.jar
 
-xom.jar
-
-xom-1.2.10-src.ar
-
-I am not sure if all of these jar files are essential or not. I had all of these imported, so I mentioned all of them.
 
 How to run this code
 --------------------
