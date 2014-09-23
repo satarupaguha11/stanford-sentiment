@@ -9,7 +9,9 @@ stanford-corenlp-3.4.jar
 
 stanford-corenlp-3.4-models.jar
 
-xom.jar:joda-time.jar
+xom.jar
+
+joda-time.jar
 
 jollyday.jar
 
